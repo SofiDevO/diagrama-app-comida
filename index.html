@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diagrama de Flujo</title>
+<style>
+  .diagrama-flujo {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .diagrama-flujo svg {
+    width: 100%;
+    height: auto;
+  }
+  text {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-anchor: middle;
+    fill: #333;
+  }
+  path {
+    stroke: #333;
+    stroke-width: 2;
+    fill: transparent;
+  }
+</style>
+</head>
+<body>
+<div class="diagrama-flujo">
+  <svg width="2400" height="100">
+    <!-- Nodos -->
+    <g>
+      <text x="50" y="30">Inicio</text>
+      <text x="200" y="30">Registro</text>
+      <text x="350" y="30">¿Registro Exitoso?</text>
+      <text x="500" y="30">Login</text>
+      <text x="650" y="30">¿Login Exitoso?</text>
+      <text x="800" y="30">Mostrar Productos</text>
+      <text x="950" y="30">Consultar Productos</text>
+      <text x="1100" y="30">Seleccionar Productos</text>
+      <text x="1250" y="30">Registrar Domicilio y Datos de Contacto</text>
+      <text x="1400" y="30">Datos de Pago</text>
+      <text x="1550" y="30">¿Datos de Pago Completados?</text>
+      <text x="1700" y="30">Confirmar Pedido</text>
+      <text x="1850" y="30">Guardar Datos de Pedido</text>
+      <text x="2000" y="30">Dar Seguimiento al Pedido</text>
+      <text x="2150" y="30">¿Seguimiento Finalizado?</text>
+      <text x="2300" y="30">Fin</text>
+    </g>
+    <!-- Aristas -->
+    <g>
+      <path d="M50 40 L200 40"/>
+      <path d="M200 40 L350 40"/>
+      <path d="M350 40 L500 40"/>
+      <path d="M500 40 L650 40"/>
+      <path d="M650 40 L800 40"/>
+      <path d="M800 40 L950 40"/>
+      <path d="M950 40 L1100 40"/>
+      <path d="M1100 40 L1250 40"/>
+      <path d="M1250 40 L1400 40"/>
+      <path d="M1400 40 L1550 40"/>
+      <path d="M1550 40 L1700 40"/>
+      <path d="M1700 40 L1850 40"/>
+      <path d="M1850 40 L2000 40"/>
+      <path d="M2000 40 L2150 40"/>
+      <path d="M2150 40 L2300 40"/>
+    </g>
+  </svg>
+</div>
+</body>
+</html>
